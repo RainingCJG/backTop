@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul,li{
+	list-style: none;
+}
+
+.none{
+	display: none;
+}
+
+.backtop{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 40px;
+	height: 40px;
+	background: url(../img/top_bg.png) left top no-repeat;
+}
+
+.backtop:hover{
+	background: url(../img/top_bg.png) left bottom no-repeat;
+}
